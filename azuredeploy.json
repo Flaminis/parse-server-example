@@ -108,11 +108,11 @@
               },
             {
             "name": "APP_ID",
-            "value": "[parameters('parseAppId')]"
+            "value": "[parameters('AberdeenGirl')]"
             },
             {
             "name": "MASTER_KEY",
-            "value": "[parameters('parseMasterKey')]"
+            "value": "[parameters('AberdeenMasterKey')]"
             },
             {
             "name": "SERVER_URL",
