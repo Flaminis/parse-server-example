@@ -17,9 +17,11 @@ var api = new ParseServer({
   appId: 'AberdeenGirl',
   clientKey: 'AberdeenGirlClient',
   masterKey: 'AberdeenMasterKey', //Add your master key here. Keep it secret!
-  serverURL: 'https://localhost:1337/parse',  // Don't forget to change to https if needed
+  serverURL: 'https://localhost:1337/parse', 
+  javascriptKey: 'AberdeenGirlJS',
+  restAPIKey: 'AberdeenGirlRest', // Don't forget to change to https if needed
   liveQuery: {
-    classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
+    classNames: ["Posts", "Comments","Message"] // List of classes to support for query subscriptions
   }
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
